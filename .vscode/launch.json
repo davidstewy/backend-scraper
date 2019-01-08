@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "webscrapper kenzie",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "https://nookpaleo.com/"
+            ]
+        },
+        {
+            "name": "webscrapper emails",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "http://www.enron-mail.com/email/skilling-j/_sent_mail/RE_Dinner_Monday_April_23_8.html"
+            ]
+        }
+    ]
+}
